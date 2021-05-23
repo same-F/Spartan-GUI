@@ -132,3 +132,27 @@ replace(730, "gfx/spartan-8bpp.png") {
       [88, 110, 20, 20, 0, 0, NOCROP]
 }
 
+/*179 */
+replacenew(OTTD_GUI, "gfx/spartan-8bpp.png", 179) {
+      [44, 110, 20, 20, 0, 0, NOCROP]
+}
+
+/*Landscaping */
+replace(4083, "gfx/spartan-8bpp.png") {
+      [110, 110, 20, 20, 0, 0, NOCROP]
+}
+
+/*Jukebox */
+replace(713, "gfx/spartan-8bpp.png") {
+      [0, 132, 20, 20, 0, 0, NOCROP]
+}
+
+/*News */
+replace(680, "gfx/spartan-8bpp.png") {
+      [22, 132, 20, 20, 0, 0, NOCROP]
+}
+
+/*Info*/
+replace(723, "gfx/spartan-8bpp.png") {
+      [44, 132, 20, 20, 0, 0, NOCROP]
+}
