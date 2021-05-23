@@ -1,0 +1,134 @@
+grf {
+      grfid: "AP\00\01";
+      name: string(STR_GRF_NAME);
+      desc: string(STR_GRF_DESCRIPTION);
+      version: 0;
+      min_compatible_version: 0;
+}
+
+/*Pause button */
+replace(726, "gfx/spartan-8bpp.png") {
+      [0, 0, 20, 20, 0, 0, NOCROP]
+}
+
+/*FF button */
+replacenew(OTTD_GUI, "gfx/spartan-8bpp.png", 90) {
+      [22, 0, 20, 20, 0, 0, NOCROP]
+}
+
+/*Options b */
+replace(751, "gfx/spartan-8bpp.png") {
+      [44, 0, 20, 20, 0, 0, NOCROP]
+}
+
+/*File menu */
+replace(724, "gfx/spartan-8bpp.png") {
+      [66, 0, 20, 20, 0, 0, NOCROP]
+      [88, 0, 20, 20, 0, 0, NOCROP]
+}
+
+/*Map b */
+replace(708, "gfx/spartan-8bpp.png") {
+      [0, 22, 20, 20, 0, 0, NOCROP]
+}
+
+/*Towns */
+replace(4077, "gfx/spartan-8bpp.png") {
+      [22, 22, 20, 20, 0, 0, NOCROP]
+}
+
+/*Subs */
+replace(679, "gfx/spartan-8bpp.png") {
+      [44, 22, 20, 20, 0, 0, NOCROP]
+}
+
+/*Stations b */
+replace(1299, "gfx/spartan-8bpp.png") {
+      [66, 22, 20, 20, 0, 0, NOCROP]
+}
+
+/*Money */
+replace(737, "gfx/spartan-8bpp.png") {
+      [0, 44, 20, 20, 0, 0, NOCROP]
+}
+
+/*Face b */
+replace(743, "gfx/spartan-8bpp.png") {
+      [22, 44, 20, 20, 0, 0, NOCROP]
+}
+
+/*169*/
+replacenew(OTTD_GUI, "gfx/spartan-8bpp.png", 169) {
+      [44, 44, 20, 20, 0, 0, NOCROP]
+}
+
+/*171 */
+replacenew(OTTD_GUI, "gfx/spartan-8bpp.png", 171) {
+      [66, 44, 20, 20, 0, 0, NOCROP]
+}
+
+/*Graphs*/
+replace(745, "gfx/spartan-8bpp.png") {
+      [88, 44, 20, 20, 0, 0, NOCROP]
+}
+
+/*League b*/
+replace(684, "gfx/spartan-8bpp.png") {
+      [110, 44, 20, 20, 0, 0, NOCROP]
+}
+
+/*Industries*/
+replace(741, "gfx/spartan-8bpp.png") {
+      [132, 44, 20, 20, 0, 0, NOCROP]
+}
+
+/*Manage trains */
+replace(731, "gfx/spartan-8bpp.png") {
+      [0, 66, 20, 20, 0, 0, NOCROP]
+}
+
+/*Manage roads */
+replace(732, "gfx/spartan-8bpp.png") {
+      [22, 66, 20, 20, 0, 0, NOCROP]
+}
+
+/*Manage ships */
+replace(733, "gfx/spartan-8bpp.png") {
+      [44, 66, 20, 20, 0, 0, NOCROP]
+}
+
+/*Manage planes */
+replace(734, "gfx/spartan-8bpp.png") {
+      [66, 66, 20, 20, 0, 0, NOCROP]
+}
+
+/*Zoom in */
+replace(735, "gfx/spartan-8bpp.png") {
+      [0, 88, 20, 20, 0, 0, NOCROP]
+}
+
+/*Zoom out */
+replace(736, "gfx/spartan-8bpp.png") {
+      [22, 88, 20, 20, 0, 0, NOCROP]
+}
+
+/*Build rail */
+replace(727, "gfx/spartan-8bpp.png") {
+      [0, 110, 20, 20, 0, 0, NOCROP]
+}
+
+/*Build road */
+replace(728, "gfx/spartan-8bpp.png") {
+      [22, 110, 20, 20, 0, 0, NOCROP]
+}
+
+/*Build waterway */
+replace(729, "gfx/spartan-8bpp.png") {
+      [66, 110, 20, 20, 0, 0, NOCROP]
+}
+
+/*Build airports*/
+replace(730, "gfx/spartan-8bpp.png") {
+      [88, 110, 20, 20, 0, 0, NOCROP]
+}
+

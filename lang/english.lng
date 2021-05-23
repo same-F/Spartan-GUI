@@ -1,0 +1,5 @@
+##grflangid 0x01
+#This is the English language file.
+
+STR_GRF_NAME               :{TITLE} {VERSION}
+STR_GRF_DESCRIPTION        :{TITLE} is the best
