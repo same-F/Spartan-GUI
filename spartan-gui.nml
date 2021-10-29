@@ -6,153 +6,441 @@ grf {
       min_compatible_version: 0;
 }
 
+
+// Cursor
+replace(0, "gfx/cursor.png") {
+      [0, 0, 24, 24, 0, 0, NOCROP]
+}
+
+
 /*Pause button */
-replace(726, "gfx/s-gui.png") {
-      [4, 4, 32, 32, 0, 0,]
+replace(726, "gfx/s-gui-main_toolbar.png") {
+      [1, 1, 22, 22, 0, 0, NOCROP]
 }
 
 /*FF button */
-replacenew(OTTD_GUI, "gfx/s-gui.png", 90) {
-      [40, 4, 32, 32, 0, 0, NOCROP]
+replacenew(OTTD_GUI, "gfx/s-gui-main_toolbar.png", 90) {
+      [23, 1, 22, 22, 0, 0, NOCROP]
 }
 
 /*Options b */
-replace(751, "gfx/s-gui.png") {
-      [44, 0, 20, 20, 0, 0, NOCROP]
+replace(751, "gfx/s-gui-main_toolbar.png") {
+      [45, 1, 22, 22, 0, 0, NOCROP]
 }
 
 /*File menu */
-replace(724, "gfx/s-gui.png") {
-      [66, 0, 20, 20, 0, 0, NOCROP]
-      [88, 0, 20, 20, 0, 0, NOCROP]
+replace(724, "gfx/s-gui-main_toolbar.png") {
+      [67, 1, 22, 22, 0, 0, NOCROP]
+      [89, 1, 22, 22, 0, 0, NOCROP]
 }
 
 /*Map b */
-replace(708, "gfx/s-gui.png") {
-      [0, 22, 20, 20, 0, 0, NOCROP]
+replace(708, "gfx/s-gui-main_toolbar.png") {
+      [1, 23, 22, 22, 0, 0, NOCROP]
 }
 
 /*Towns */
-replace(4077, "gfx/s-gui.png") {
-      [22, 22, 20, 20, 0, 0, NOCROP]
+replace(4077, "gfx/s-gui-main_toolbar.png") {
+      [23, 23, 22, 22, 0, 0, NOCROP]
 }
 
 /*Subs */
-replace(679, "gfx/s-gui.png") {
-      [44, 22, 20, 20, 0, 0, NOCROP]
+replace(679, "gfx/s-gui-main_toolbar.png") {
+      [45, 23, 22, 22, 0, 0, NOCROP]
 }
 
 /*Stations b */
-replace(1299, "gfx/s-gui.png") {
-      [66, 22, 20, 20, 0, 0, NOCROP]
+replace(1299, "gfx/s-gui-main_toolbar.png") {
+      [67, 23, 22, 22, 0, 0, NOCROP]
 }
 
 /*Money */
-replace(737, "gfx/s-gui.png") {
-      [0, 44, 20, 20, 0, 0, NOCROP]
+replace(737, "gfx/s-gui-main_toolbar.png") {
+      [89, 23, 22, 22, 0, 0, NOCROP]
 }
 
 /*Face b */
-replace(743, "gfx/s-gui.png") {
-      [22, 44, 20, 20, 0, 0, NOCROP]
+replace(743, "gfx/s-gui-main_toolbar.png") {
+      [1, 45, 22, 22, 0, 0, NOCROP]
 }
 
-/*169*/
-replacenew(OTTD_GUI, "gfx/s-gui.png", 169) {
-      [44, 44, 20, 20, 0, 0, NOCROP]
+/*Story book*/
+replacenew(OTTD_GUI, "gfx/s-gui-main_toolbar.png", 169) {
+      [23, 45, 22, 22, 0, 0, NOCROP]
 }
 
-/*171 */
-replacenew(OTTD_GUI, "gfx/s-gui.png", 171) {
-      [66, 44, 20, 20, 0, 0, NOCROP]
+/*Goal list */
+replacenew(OTTD_GUI, "gfx/s-gui-main_toolbar.png", 171) {
+      [45, 45, 22, 22, 0, 0, NOCROP]
 }
 
 /*Graphs*/
-replace(745, "gfx/s-gui.png") {
-      [88, 44, 20, 20, 0, 0, NOCROP]
+replace(745, "gfx/s-gui-main_toolbar.png") {
+      [67, 45, 22, 22, 0, 0, NOCROP]
 }
 
 /*League b*/
-replace(684, "gfx/s-gui.png") {
-      [110, 44, 20, 20, 0, 0, NOCROP]
+replace(684, "gfx/s-gui-main_toolbar.png") {
+      [89, 45, 22, 22, 0, 0, NOCROP]
 }
 
 /*Industries*/
-replace(741, "gfx/s-gui.png") {
-      [132, 44, 20, 20, 0, 0, NOCROP]
+replace(741, "gfx/s-gui-main_toolbar.png") {
+      [1, 67, 22, 22, 0, 0, NOCROP]
 }
 
 /*Manage trains */
-replace(731, "gfx/s-gui.png") {
-      [0, 66, 20, 20, 0, 0, NOCROP]
+replace(731, "gfx/s-gui-main_toolbar.png") {
+      [23, 67, 22, 22, 0, 0, NOCROP]
 }
 
-/*Manage roads */
-replace(732, "gfx/s-gui.png") {
-      [22, 66, 20, 20, 0, 0, NOCROP]
+/*Manage roadvehs */
+replace(732, "gfx/s-gui-main_toolbar.png") {
+      [45, 67, 22, 22, 0, 0, NOCROP]
 }
 
 /*Manage ships */
-replace(733, "gfx/s-gui.png") {
-      [44, 66, 20, 20, 0, 0, NOCROP]
+replace(733, "gfx/s-gui-main_toolbar.png") {
+      [67, 67, 22, 22, 0, 0, NOCROP]
 }
 
 /*Manage planes */
-replace(734, "gfx/s-gui.png") {
-      [66, 66, 20, 20, 0, 0, NOCROP]
+replace(734, "gfx/s-gui-main_toolbar.png") {
+      [89, 67, 22, 22, 0, 0, NOCROP]
 }
 
 /*Zoom in */
-replace(735, "gfx/s-gui.png") {
-      [0, 88, 20, 20, 0, 0, NOCROP]
+replace(735, "gfx/s-gui-main_toolbar.png") {
+      [1, 89, 22, 22, 0, 0, NOCROP]
 }
 
 /*Zoom out */
-replace(736, "gfx/s-gui.png") {
-      [22, 88, 20, 20, 0, 0, NOCROP]
+replace(736, "gfx/s-gui-main_toolbar.png") {
+      [23, 89, 22, 22, 0, 0, NOCROP]
 }
 
 /*Build rail */
-replace(727, "gfx/s-gui.png") {
-      [0, 110, 20, 20, 0, 0, NOCROP]
+replace(727, "gfx/s-gui-main_toolbar.png") {
+      [45, 89, 22, 22, 0, 0, NOCROP]
 }
 
 /*Build road */
-replace(728, "gfx/s-gui.png") {
-      [22, 110, 20, 20, 0, 0, NOCROP]
+replace(728, "gfx/s-gui-main_toolbar.png") {
+      [67, 89, 22, 22, 0, 0, NOCROP]
 }
 
 /*Build waterway */
-replace(729, "gfx/s-gui.png") {
-      [66, 110, 20, 20, 0, 0, NOCROP]
+replace(729, "gfx/s-gui-main_toolbar.png") {
+      [1, 111, 22, 22, 0, 0, NOCROP]
 }
 
 /*Build airports*/
-replace(730, "gfx/s-gui.png") {
-      [88, 110, 20, 20, 0, 0, NOCROP]
+replace(730, "gfx/s-gui-main_toolbar.png") {
+      [23, 111, 22, 22, 0, 0, NOCROP]
 }
 
-/*179 */
-replacenew(OTTD_GUI, "gfx/s-gui.png", 179) {
-      [44, 110, 20, 20, 0, 0, NOCROP]
+/*Trams */
+replacenew(OTTD_GUI, "gfx/s-gui-main_toolbar.png", 179) {
+      [89, 89, 22, 22, 0, 0, NOCROP]
 }
 
 /*Landscaping */
-replace(4083, "gfx/s-gui.png") {
-      [110, 110, 20, 20, 0, 0, NOCROP]
+replace(4083, "gfx/s-gui-main_toolbar.png") {
+      [45, 111, 22, 22, 0, 0, NOCROP]
 }
 
 /*Jukebox */
-replace(713, "gfx/s-gui.png") {
-      [0, 132, 20, 20, 0, 0, NOCROP]
+replace(713, "gfx/s-gui-main_toolbar.png") {
+      [67, 111, 22, 22, 0, 0, NOCROP]
 }
 
 /*News */
-replace(680, "gfx/s-gui.png") {
-      [22, 132, 20, 20, 0, 0, NOCROP]
+replace(680, "gfx/s-gui-main_toolbar.png") {
+      [89, 111, 22, 22, 0, 0, NOCROP]
 }
 
 /*Info*/
-replace(723, "gfx/s-gui.png") {
-      [44, 132, 20, 20, 0, 0, NOCROP]
+replace(723, "gfx/s-gui-main_toolbar.png") {
+      [1, 133, 22, 22, 0, 0, NOCROP]
+}
+
+
+
+// ***MAP***
+
+/*Minimap - show vehicles*/
+replace(739, "gfx/s-gui-map_toolbar.png") {
+      [23, 1, 22, 22, 0, 0, NOCROP]
+}
+
+/*Minimap - show contours*/
+replace(738, "gfx/s-gui-map_toolbar.png") {
+      [1, 23, 22, 22, 0, 0, NOCROP]
+}
+
+/*Minimap - show routes*/
+replace(740, "gfx/s-gui-map_toolbar.png") {
+      [1, 1, 22, 22, 0, 0, NOCROP]
+}
+
+/*Cargoflows */
+replacenew(OTTD_GUI, "gfx/s-gui-map_toolbar.png", 174) {
+      [23, 23, 22, 22, 0, 0, NOCROP]
+}
+
+
+
+// ***RAIL_TOOLBAR***
+
+// rail-1
+replace(1251, "gfx/s-gui-rail_toolbar.png") {
+      [1, 1, 22, 22, 0, 0, NOCROP]
+}
+
+replace(1255, "gfx/s-gui-rail_toolbar.png") {
+      [1, 1, 22, 22, 0, 0, NOCROP]
+}
+
+replace(1259, "gfx/s-gui-rail_toolbar.png") {
+      [1, 1, 22, 22, 0, 0, NOCROP]
+}
+
+replace(5667, "gfx/s-gui-rail_toolbar.png") {
+      [1, 1, 22, 22, 0, 0, NOCROP]
+}
+
+// rail-2
+replace(1252, "gfx/s-gui-rail_toolbar.png") {
+      [23, 1, 22, 22, 0, 0, NOCROP]
+}
+
+replace(1256, "gfx/s-gui-rail_toolbar.png") {
+      [23, 1, 22, 22, 0, 0, NOCROP]
+}
+
+replace(1260, "gfx/s-gui-rail_toolbar.png") {
+      [23, 1, 22, 22, 0, 0, NOCROP]
+}
+
+replace(5668, "gfx/s-gui-rail_toolbar.png") {
+      [23, 1, 22, 22, 0, 0, NOCROP]
+}
+
+// rail-3
+replace(1254, "gfx/s-gui-rail_toolbar.png") {
+      [67, 1, 22, 22, 0, 0, NOCROP]
+}
+
+replace(1258, "gfx/s-gui-rail_toolbar.png") {
+      [67, 1, 22, 22, 0, 0, NOCROP]
+}
+
+replace(1261, "gfx/s-gui-rail_toolbar.png") {
+      [67, 1, 22, 22, 0, 0, NOCROP]
+}
+
+replace(5670, "gfx/s-gui-rail_toolbar.png") {
+      [67, 1, 22, 22, 0, 0, NOCROP]
+}
+
+// rail-5
+replace(4949, "gfx/s-gui-rail_toolbar.png") {
+      [87, 1, 22, 22, 0, 0, NOCROP]
+}
+
+replace(4953, "gfx/s-gui-rail_toolbar.png") {
+      [87, 1, 22, 22, 0, 0, NOCROP]
+}
+
+replace(4959, "gfx/s-gui-rail_toolbar.png") {
+      [87, 1, 22, 22, 0, 0, NOCROP]
+}
+
+replace(4965, "gfx/s-gui-rail_toolbar.png") {
+      [87, 1, 22, 22, 0, 0, NOCROP]
+}
+
+// rail-4
+replace(1253, "gfx/s-gui-rail_toolbar.png") {
+      [45, 1, 22, 22, 0, 0, NOCROP]
+}
+
+replace(1257, "gfx/s-gui-rail_toolbar.png") {
+      [45, 1, 22, 22, 0, 0, NOCROP]
+}
+
+replace(1262, "gfx/s-gui-rail_toolbar.png") {
+      [45, 1, 22, 22, 0, 0, NOCROP]
+}
+
+replace(5669, "gfx/s-gui-rail_toolbar.png") {
+      [45, 1, 22, 22, 0, 0, NOCROP]
+}
+
+// Bomb
+replace(703, "gfx/s-gui-rail_toolbar.png") {
+      [1, 23, 22, 22, 0, 0, NOCROP]
+}
+
+// Depot
+replace(1294, "gfx/s-gui-rail_toolbar.png") {
+      [23, 23, 22, 22, 0, 0, NOCROP]
+}
+
+replace(4969, "gfx/s-gui-rail_toolbar.png") {
+      [23, 23, 22, 22, 0, 0, NOCROP]
+}
+
+replace(4957, "gfx/s-gui-rail_toolbar.png") {
+      [23, 23, 22, 22, 0, 0, NOCROP]
+}
+
+replace(4963, "gfx/s-gui-rail_toolbar.png") {
+      [23, 23, 22, 22, 0, 0, NOCROP]
+}
+
+
+
+// Waypoint
+replace(4972, "gfx/s-gui-rail_toolbar.png") {
+      [45, 23, 22, 22, 0, 0, NOCROP]
+}
+
+// Station
+replace(1298, "gfx/s-gui-rail_toolbar.png") {
+      [67, 23, 42, 22, 0, 0, NOCROP]
+}
+
+// Signals
+replace(1291, "gfx/s-gui-rail_toolbar.png") {
+      [1, 45, 22, 22, 0, 0, NOCROP]
+}
+
+// Bridge
+replace(2594, "gfx/s-gui-rail_toolbar.png") {
+      [23, 45, 42, 22, 0, 0, NOCROP]
+}
+
+// Tunnel
+replace(2430, "gfx/s-gui-rail_toolbar.png") {
+      [65, 45, 22, 22, 0, 0, NOCROP]
+}
+
+replace(2431, "gfx/s-gui-rail_toolbar.png") {
+      [65, 45, 22, 22, 0, 0, NOCROP]
+}
+
+replace(2432, "gfx/s-gui-rail_toolbar.png") {
+      [65, 45, 22, 22, 0, 0, NOCROP]
+}
+
+replace(5675, "gfx/s-gui-rail_toolbar.png") {
+      [65, 45, 22, 22, 0, 0, NOCROP]
+}
+
+
+// Buldozer
+replace(714, "gfx/s-gui-rail_toolbar.png") {
+      [87, 45, 22, 22, 0, 0, NOCROP]
+}
+
+// Update
+replace(4951, "gfx/s-gui-rail_toolbar.png") {
+      [1, 67, 22, 22, 0, 0, NOCROP]
+}
+
+replace(4961, "gfx/s-gui-rail_toolbar.png") {
+      [1, 67, 22, 22, 0, 0, NOCROP]
+}
+
+replace(4967, "gfx/s-gui-rail_toolbar.png") {
+      [1, 67, 22, 22, 0, 0, NOCROP]
+}
+
+replace(4955, "gfx/s-gui-rail_toolbar.png") {
+      [1, 67, 22, 22, 0, 0, NOCROP]
+}
+
+// Rise up land
+replace(694, "gfx/s-gui-rail_toolbar.png") {
+      [23, 67, 22, 22, 0, 0, NOCROP]
+}
+
+// Down land
+replace(695, "gfx/s-gui-rail_toolbar.png") {
+      [45, 67, 22, 22, 0, 0, NOCROP]
+}
+
+// Area land
+replace(4987, "gfx/s-gui-rail_toolbar.png") {
+      [67, 67, 22, 22, 0, 0, NOCROP]
+}
+
+// Purchase land
+replace(4791, "gfx/s-gui-rail_toolbar.png") {
+      [89, 67, 22, 22, 0, 0, NOCROP]
+}
+
+// Trees
+replace(742, "gfx/s-gui-rail_toolbar.png") {
+      [1, 89, 22, 22, 0, 0, NOCROP]
+}
+
+// Place sign
+replace(4082, "gfx/s-gui-rail_toolbar.png") {
+      [23, 89, 22, 22, 0, 0, NOCROP]
+}
+
+// Transparent tower
+replace(4086, "gfx/s-gui-rail_toolbar.png") {
+      [89, 67, 22, 22, 0, 0, NOCROP]
+}
+
+
+
+// ***ROAD_TOOLBAR***
+
+// Road-1
+replace(1310, "gfx/s-gui-road_toolbar.png") {
+      [1, 1, 22, 22, 0, 0, NOCROP]
+}
+
+// Road-2
+replace(1309, "gfx/s-gui-road_toolbar.png") {
+      [23, 1, 22, 22, 0, 0, NOCROP]
+}
+
+// Road-3
+replace(4978, "gfx/s-gui-road_toolbar.png") {
+      [45, 1, 22, 22, 0, 0, NOCROP]
+}
+
+// Depot
+replace(1295, "gfx/s-gui-road_toolbar.png") {
+      [67, 1, 22, 22, 0, 0, NOCROP]
+}
+
+// Pax
+replace(749, "gfx/s-gui-road_toolbar.png") {
+      [89, 1, 22, 22, 0, 0, NOCROP]
+}
+
+// Freight
+replace(750, "gfx/s-gui-road_toolbar.png") {
+      [1, 23, 22, 22, 0, 0, NOCROP]
+}
+
+// Oneway
+replace(5030, "gfx/s-gui-road_toolbar.png") {
+      [23, 23, 22, 22, 0, 0, NOCROP]
+}
+
+// Road-tunnel
+replace(2429, "gfx/s-gui-road_toolbar.png") {
+      [45, 23, 22, 22, 0, 0, NOCROP]
+}
+
+// Road-update
+replace(5076, "gfx/s-gui-road_toolbar.png") {
+      [67, 23, 22, 22, 0, 0, NOCROP]
 }
