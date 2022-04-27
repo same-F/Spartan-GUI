@@ -2,14 +2,14 @@ grf {
       grfid: "AP\00\02";
       name: string(STR_GRF_NAME);
       desc: string(STR_GRF_DESCRIPTION);
-      version: 0;
-      min_compatible_version: 0;
+      version: 1;
+      min_compatible_version: 1;
 }
 
 
 // Cursor
 replace(0, "gfx/cursor.png") {
-      [0, 0, 24, 24, 0, 0, NOCROP]
+      [0, 0, 20, 20, 0, 0, NOCROP]
 }
 
 

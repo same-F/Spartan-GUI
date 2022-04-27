@@ -1,2 +1,2 @@
-VERSION  :0.0.2
-TITLE    :S-GUI
+VERSION  :0.1.0
+TITLE    :same-GUI
