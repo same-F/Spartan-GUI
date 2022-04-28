@@ -1,0 +1,916 @@
+grf {
+	grfid: "SUM\11"; /* 53554D11 */
+	name:string(STR_GRF_NAME);
+	desc: string(STR_GRF_DESC);
+	url : string(STR_GRF_URL);
+	version: 01;
+	min_compatible_version: 01;
+	
+	param 0 {
+		PARAM_colour_selection {
+			type: int;
+			name: string(STR_PARAM_NAME_colour);
+			desc: string(STR_PARAM_DESC_colour);
+			min_value: 0;
+			max_value: 5;
+			def_value: 1;
+			names: {
+			0: string(STR_PARAM_colour_def);
+			1: string(STR_PARAM_colour_light);
+			2: string(STR_PARAM_colour_dark);
+			3: string(STR_PARAM_colour_wine);
+			4: string(STR_PARAM_colour_green);
+			5: string(STR_PARAM_colour_blue);
+			};
+		}
+	}
+}
+if (param[0] == 0) { /* DEFAULT-No Changes */ }
+
+if (param[0] == 1) { //LIGHT Y=35
+	replace( 0, "gfx/cursor.png") {
+	[1,35,13,18,0,0,NOCROP]
+	}
+	replace( 696, "gfx/cursor.png") {
+	//[15,35,20,14,0,0,NOCROP] GUI 694
+	//[36,35,20,14,0,0,NOCROP] 695
+	[57,35,29,24,0,0,NOCROP]
+	[87,35,29,24,0,0,NOCROP]
+	[117,35,29,24,0,0,NOCROP]
+	[147,35,29,24,0,0,NOCROP]
+	[177,35,29,24,0,0,NOCROP]
+	[207,35,29,24,0,0,NOCROP]
+	[237,35,18,27,0,0,NOCROP]
+	}
+	replace( 704, "gfx/cursor.png") {
+	[256,35,27,29,0,0,NOCROP]
+	[284,35,26,29,0,0,NOCROP]
+	[311,35,27,29,0,0,NOCROP]
+	[339,35,28,29,0,0,NOCROP]
+	}
+	replace( 716, "gfx/cursor.png") {
+	//[368,35,14,16,0,0,NOCROP] GUI 715
+	[383,35,24,27,0,0,NOCROP]
+	[408,35,24,27,0,0,NOCROP]
+	[433,35,24,27,0,0,NOCROP]
+	[458,35,26,31,0,0,NOCROP]
+	[485,35,32,32,0,0,NOCROP]
+	[518,35,32,32,0,0,NOCROP]
+	[551,35,26,32,0,0,NOCROP]
+	}
+	replace( 1263, "gfx/cursor.png") {
+	[578,35,20,29,0,0,NOCROP]
+	[599,35,26,28,0,0,NOCROP]
+	[626,35,27,26,0,0,NOCROP]
+	[654,35,26,28,0,0,NOCROP]
+	[681,35,18,29,0,0,NOCROP]
+	[700,35,25,28,0,0,NOCROP]
+	[726,35,30,26,0,0,NOCROP]
+	[757,35,25,28,0,0,NOCROP]
+	[783,35,21,29,0,0,NOCROP]
+	[805,35,25,28,0,0,NOCROP]
+	[831,35,26,26,0,0,NOCROP]
+	[858,35,26,28,0,0,NOCROP]
+	}
+	replace( 1292, "gfx/cursor.png") {
+	[885,35,28,30,0,0,NOCROP]
+	[914,35,28,30,0,0,NOCROP]
+	}
+	replace( 1296, "gfx/cursor.png") {
+	[943,35,32,32,0,0,NOCROP]
+	[976,35,32,32,0,0,NOCROP]
+	}
+	replace( 1300, "gfx/cursor.png") {
+	[1009,35,29,32,0,0,NOCROP]
+	}
+	replace( 1311, "gfx/cursor.png") {
+	[1039,35,27,28,0,0,NOCROP]
+	[1067,35,27,28,0,0,NOCROP]
+	}
+	replace( 2010, "gfx/cursor.png") {
+	[1095,35,23,32,0,0,NOCROP]
+	}
+	replace( 2433, "gfx/cursor.png") {
+	[1119,35,27,30,0,0,NOCROP]
+	[1147,35,27,30,0,0,NOCROP]
+	[1175,35,27,30,0,0,NOCROP]
+	[1203,35,27,30,0,0,NOCROP]
+	}
+	replace( 2724, "gfx/cursor.png") {
+	[1231,35,32,32,0,0,NOCROP]
+	[1264,35,32,32,0,0,NOCROP]
+	[1297,35,32,32,0,0,NOCROP]
+	}
+	replace( 3668, "gfx/cursor.png") {
+	[1330,35,32,32,0,0,NOCROP]
+	}
+	replace( 4080, "gfx/cursor.png") {
+	[1363,35,32,32,0,0,NOCROP]
+	[1396,35,26,31,0,0,NOCROP]
+	}
+	replace( 4087, "gfx/cursor.png") {
+	[1423,35,26,32,0,0,NOCROP]
+	[1450,35,19,32,0,0,NOCROP]
+	[1470,35,28,32,0,0,NOCROP]
+	}
+	replace( 4792, "gfx/cursor.png") {
+	[1499,35,20,28,0,0,NOCROP]
+	}
+	replace( 5655, "gfx/cursor.png") {
+	[1520,35,20,29,0,0,NOCROP]
+	[1541,35,26,28,0,0,NOCROP]
+	[1568,35,27,26,0,0,NOCROP]
+	[1596,35,26,28,0,0,NOCROP]
+	}
+	replace( 5660, "gfx/cursor.png") {
+	[1644,35,27,30,0,0,NOCROP]
+	}
+	replace( 5971, "gfx/cursor.png") {
+	[1672,35,42,32,0,0,NOCROP]
+	[1715,35,42,31,0,0,NOCROP]
+	}
+	if (climate == CLIMATE_TOYLAND) {
+	replace( 702, "gfx/cursor.png") {
+	[1758,35,19,27,0,0,NOCROP]
+	}
+	}
+	replace( 4950, "gfx/cursor.png") {
+	[1778,35,26,28,0,0,NOCROP]
+	}
+	replace( 4952, "gfx/cursor.png") {
+	[1826,35,29,28,0,0,NOCROP]
+	}
+	replace( 4954, "gfx/cursor.png") {
+	[1856,35,26,28,0,0,NOCROP]
+	}
+	replace( 4956, "gfx/cursor.png") {
+	[1904,35,28,28,0,0,NOCROP]
+	}
+	replace( 4958, "gfx/cursor.png") {
+	[1933,35,32,32,0,0,NOCROP]
+	}
+	replace( 4960, "gfx/cursor.png") {
+	[1966,35,26,28,0,0,NOCROP]
+	}
+	replace( 4962, "gfx/cursor.png") {
+	[2014,35,32,28,0,0,NOCROP]
+	}
+	replace( 4964, "gfx/cursor.png") {
+	[2047,35,32,32,0,0,NOCROP]
+	}
+	replace( 4966, "gfx/cursor.png") {
+	[2080,35,26,28,0,0,NOCROP]
+	}
+	replace( 4968, "gfx/cursor.png") {
+	[2128,35,28,28,0,0,NOCROP]
+	}
+	replace( 4970, "gfx/cursor.png") {
+	[2157,35,32,32,0,0,NOCROP]
+	}
+	replace( 4973, "gfx/cursor.png") {
+	[2190,35,32,32,0,0,NOCROP]
+	}
+	replace( 4979, "gfx/cursor.png") {
+	[2223,35,27,29,0,0,NOCROP]
+	}
+	replace( 4981, "gfx/cursor.png") {
+	[2251,35,27,28,0,0,NOCROP]
+	}
+	replace( 4983, "gfx/cursor.png") {
+	[2279,35,32,32,0,0,NOCROP]
+	}
+	replace( 4985, "gfx/cursor.png") {
+	[2312,35,32,32,0,0,NOCROP]
+	}
+	replace( 4988, "gfx/cursor.png") {
+	[2366,35,29,24,0,0,NOCROP]
+	}
+	replace( 5006, "gfx/cursor.png") {
+	[2396,35,22,29,0,0,NOCROP]
+	[2419,35,23,29,0,0,NOCROP]
+	[2443,35,25,29,0,0,NOCROP]
+	[2469,35,24,29,0,0,NOCROP]
+	}
+	replace( 5033, "gfx/cursor.png") {
+	[2494,35,27,32,0,0,NOCROP]
+	}
+	replace( 5042, "gfx/cursor.png") {
+	[2522,35,27,32,0,0,NOCROP]
+	}
+	replace( 2593, "gfx/cursor.png") {
+	[2550,35,45,32,0,0,NOCROP]
+	}
+}
+
+
+if (param[0] == 2) { //DARK Y=70
+	replace( 0, "gfx/cursor.png") {
+	[1,70,13,18,0,0,NOCROP]
+	}
+	replace( 696, "gfx/cursor.png") {
+	//[15,70,20,14,0,0,NOCROP] GUI 694
+	//[36,70,20,14,0,0,NOCROP] 695
+	[57,70,29,24,0,0,NOCROP]
+	[87,70,29,24,0,0,NOCROP]
+	[117,70,29,24,0,0,NOCROP]
+	[147,70,29,24,0,0,NOCROP]
+	[177,70,29,24,0,0,NOCROP]
+	[207,70,29,24,0,0,NOCROP]
+	[237,70,18,27,0,0,NOCROP]
+	}
+	replace( 704, "gfx/cursor.png") {
+	[256,70,27,29,0,0,NOCROP]
+	[284,70,26,29,0,0,NOCROP]
+	[311,70,27,29,0,0,NOCROP]
+	[339,70,28,29,0,0,NOCROP]
+	}
+	replace( 716, "gfx/cursor.png") {
+	//[368,70,14,16,0,0,NOCROP] GUI 715
+	[383,70,24,27,0,0,NOCROP]
+	[408,70,24,27,0,0,NOCROP]
+	[433,70,24,27,0,0,NOCROP]
+	[458,70,26,31,0,0,NOCROP]
+	[485,70,32,32,0,0,NOCROP]
+	[518,70,32,32,0,0,NOCROP]
+	[551,70,26,32,0,0,NOCROP]
+	}
+	replace( 1263, "gfx/cursor.png") {
+	[578,70,20,29,0,0,NOCROP]
+	[599,70,26,28,0,0,NOCROP]
+	[626,70,27,26,0,0,NOCROP]
+	[654,70,26,28,0,0,NOCROP]
+	[681,70,18,29,0,0,NOCROP]
+	[700,70,25,28,0,0,NOCROP]
+	[726,70,30,26,0,0,NOCROP]
+	[757,70,25,28,0,0,NOCROP]
+	[783,70,21,29,0,0,NOCROP]
+	[805,70,25,28,0,0,NOCROP]
+	[831,70,26,26,0,0,NOCROP]
+	[858,70,26,28,0,0,NOCROP]
+	}
+	replace( 1292, "gfx/cursor.png") {
+	[885,70,28,30,0,0,NOCROP]
+	[914,70,28,30,0,0,NOCROP]
+	}
+	replace( 1296, "gfx/cursor.png") {
+	[943,70,32,32,0,0,NOCROP]
+	[976,70,32,32,0,0,NOCROP]
+	}
+	replace( 1300, "gfx/cursor.png") {
+	[1009,70,29,32,0,0,NOCROP]
+	}
+	replace( 1311, "gfx/cursor.png") {
+	[1039,70,27,28,0,0,NOCROP]
+	[1067,70,27,28,0,0,NOCROP]
+	}
+	replace( 2010, "gfx/cursor.png") {
+	[1095,70,23,32,0,0,NOCROP]
+	}
+	replace( 2433, "gfx/cursor.png") {
+	[1119,70,27,30,0,0,NOCROP]
+	[1147,70,27,30,0,0,NOCROP]
+	[1175,70,27,30,0,0,NOCROP]
+	[1203,70,27,30,0,0,NOCROP]
+	}
+	replace( 2724, "gfx/cursor.png") {
+	[1231,70,32,32,0,0,NOCROP]
+	[1264,70,32,32,0,0,NOCROP]
+	[1297,70,32,32,0,0,NOCROP]
+	}
+	replace( 3668, "gfx/cursor.png") {
+	[1330,70,32,32,0,0,NOCROP]
+	}
+	replace( 4080, "gfx/cursor.png") {
+	[1363,70,32,32,0,0,NOCROP]
+	[1396,70,26,31,0,0,NOCROP]
+	}
+	replace( 4087, "gfx/cursor.png") {
+	[1423,70,26,32,0,0,NOCROP]
+	[1450,70,19,32,0,0,NOCROP]
+	[1470,70,28,32,0,0,NOCROP]
+	}
+	replace( 4792, "gfx/cursor.png") {
+	[1499,70,20,28,0,0,NOCROP]
+	}
+	replace( 5655, "gfx/cursor.png") {
+	[1520,70,20,29,0,0,NOCROP]
+	[1541,70,26,28,0,0,NOCROP]
+	[1568,70,27,26,0,0,NOCROP]
+	[1596,70,26,28,0,0,NOCROP]
+	}
+	replace( 5660, "gfx/cursor.png") {
+	[1644,70,27,30,0,0,NOCROP]
+	}
+	replace( 5971, "gfx/cursor.png") {
+	[1672,70,42,32,0,0,NOCROP]
+	[1715,70,42,31,0,0,NOCROP]
+	}
+	if (climate == CLIMATE_TOYLAND) {
+	replace( 702, "gfx/cursor.png") {
+	[1758,70,19,27,0,0,NOCROP]
+	}
+	}
+	replace( 4950, "gfx/cursor.png") {
+	[1778,70,26,28,0,0,NOCROP]
+	}
+	replace( 4952, "gfx/cursor.png") {
+	[1826,70,29,28,0,0,NOCROP]
+	}
+	replace( 4954, "gfx/cursor.png") {
+	[1856,70,26,28,0,0,NOCROP]
+	}
+	replace( 4956, "gfx/cursor.png") {
+	[1904,70,28,28,0,0,NOCROP]
+	}
+	replace( 4958, "gfx/cursor.png") {
+	[1933,70,32,32,0,0,NOCROP]
+	}
+	replace( 4960, "gfx/cursor.png") {
+	[1966,70,26,28,0,0,NOCROP]
+	}
+	replace( 4962, "gfx/cursor.png") {
+	[2014,70,32,28,0,0,NOCROP]
+	}
+	replace( 4964, "gfx/cursor.png") {
+	[2047,70,32,32,0,0,NOCROP]
+	}
+	replace( 4966, "gfx/cursor.png") {
+	[2080,70,26,28,0,0,NOCROP]
+	}
+	replace( 4968, "gfx/cursor.png") {
+	[2128,70,28,28,0,0,NOCROP]
+	}
+	replace( 4970, "gfx/cursor.png") {
+	[2157,70,32,32,0,0,NOCROP]
+	}
+	replace( 4973, "gfx/cursor.png") {
+	[2190,70,32,32,0,0,NOCROP]
+	}
+	replace( 4979, "gfx/cursor.png") {
+	[2223,70,27,29,0,0,NOCROP]
+	}
+	replace( 4981, "gfx/cursor.png") {
+	[2251,70,27,28,0,0,NOCROP]
+	}
+	replace( 4983, "gfx/cursor.png") {
+	[2279,70,32,32,0,0,NOCROP]
+	}
+	replace( 4985, "gfx/cursor.png") {
+	[2312,70,32,32,0,0,NOCROP]
+	}
+	replace( 4988, "gfx/cursor.png") {
+	[2366,70,29,24,0,0,NOCROP]
+	}
+	replace( 5006, "gfx/cursor.png") {
+	[2396,70,22,29,0,0,NOCROP]
+	[2419,70,23,29,0,0,NOCROP]
+	[2443,70,25,29,0,0,NOCROP]
+	[2469,70,24,29,0,0,NOCROP]
+	}
+	replace( 5033, "gfx/cursor.png") {
+	[2494,70,27,32,0,0,NOCROP]
+	}
+	replace( 5042, "gfx/cursor.png") {
+	[2522,70,27,32,0,0,NOCROP]
+	}
+	replace( 2593, "gfx/cursor.png") {
+	[2550,70,45,32,0,0,NOCROP]
+	}
+}
+if (param[0] == 3) { //WINE Y=105
+	replace( 0, "gfx/cursor.png") {
+	[1,105,13,18,0,0,NOCROP]
+	}
+	replace( 696, "gfx/cursor.png") {
+	//[15,105,20,14,0,0,NOCROP] GUI 694
+	//[36,105,20,14,0,0,NOCROP] 695
+	[57,105,29,24,0,0,NOCROP]
+	[87,105,29,24,0,0,NOCROP]
+	[117,105,29,24,0,0,NOCROP]
+	[147,105,29,24,0,0,NOCROP]
+	[177,105,29,24,0,0,NOCROP]
+	[207,105,29,24,0,0,NOCROP]
+	[237,105,18,27,0,0,NOCROP]
+	}
+	replace( 704, "gfx/cursor.png") {
+	[256,105,27,29,0,0,NOCROP]
+	[284,105,26,29,0,0,NOCROP]
+	[311,105,27,29,0,0,NOCROP]
+	[339,105,28,29,0,0,NOCROP]
+	}
+	replace( 716, "gfx/cursor.png") {
+	//[368,105,14,16,0,0,NOCROP] GUI 715
+	[383,105,24,27,0,0,NOCROP]
+	[408,105,24,27,0,0,NOCROP]
+	[433,105,24,27,0,0,NOCROP]
+	[458,105,26,31,0,0,NOCROP]
+	[485,105,32,32,0,0,NOCROP]
+	[518,105,32,32,0,0,NOCROP]
+	[551,105,26,32,0,0,NOCROP]
+	}
+	replace( 1263, "gfx/cursor.png") {
+	[578,105,20,29,0,0,NOCROP]
+	[599,105,26,28,0,0,NOCROP]
+	[626,105,27,26,0,0,NOCROP]
+	[654,105,26,28,0,0,NOCROP]
+	[681,105,18,29,0,0,NOCROP]
+	[700,105,25,28,0,0,NOCROP]
+	[726,105,30,26,0,0,NOCROP]
+	[757,105,25,28,0,0,NOCROP]
+	[783,105,21,29,0,0,NOCROP]
+	[805,105,25,28,0,0,NOCROP]
+	[831,105,26,26,0,0,NOCROP]
+	[858,105,26,28,0,0,NOCROP]
+	}
+	replace( 1292, "gfx/cursor.png") {
+	[885,105,28,30,0,0,NOCROP]
+	[914,105,28,30,0,0,NOCROP]
+	}
+	replace( 1296, "gfx/cursor.png") {
+	[943,105,32,32,0,0,NOCROP]
+	[976,105,32,32,0,0,NOCROP]
+	}
+	replace( 1300, "gfx/cursor.png") {
+	[1009,105,29,32,0,0,NOCROP]
+	}
+	replace( 1311, "gfx/cursor.png") {
+	[1039,105,27,28,0,0,NOCROP]
+	[1067,105,27,28,0,0,NOCROP]
+	}
+	replace( 2010, "gfx/cursor.png") {
+	[1095,105,23,32,0,0,NOCROP]
+	}
+	replace( 2433, "gfx/cursor.png") {
+	[1119,105,27,30,0,0,NOCROP]
+	[1147,105,27,30,0,0,NOCROP]
+	[1175,105,27,30,0,0,NOCROP]
+	[1203,105,27,30,0,0,NOCROP]
+	}
+	replace( 2724, "gfx/cursor.png") {
+	[1231,105,32,32,0,0,NOCROP]
+	[1264,105,32,32,0,0,NOCROP]
+	[1297,105,32,32,0,0,NOCROP]
+	}
+	replace( 3668, "gfx/cursor.png") {
+	[1330,105,32,32,0,0,NOCROP]
+	}
+	replace( 4080, "gfx/cursor.png") {
+	[1363,105,32,32,0,0,NOCROP]
+	[1396,105,26,31,0,0,NOCROP]
+	}
+	replace( 4087, "gfx/cursor.png") {
+	[1423,105,26,32,0,0,NOCROP]
+	[1450,105,19,32,0,0,NOCROP]
+	[1470,105,28,32,0,0,NOCROP]
+	}
+	replace( 4792, "gfx/cursor.png") {
+	[1499,105,20,28,0,0,NOCROP]
+	}
+	replace( 5655, "gfx/cursor.png") {
+	[1520,105,20,29,0,0,NOCROP]
+	[1541,105,26,28,0,0,NOCROP]
+	[1568,105,27,26,0,0,NOCROP]
+	[1596,105,26,28,0,0,NOCROP]
+	}
+	replace( 5660, "gfx/cursor.png") {
+	[1644,105,27,30,0,0,NOCROP]
+	}
+	replace( 5971, "gfx/cursor.png") {
+	[1672,105,42,32,0,0,NOCROP]
+	[1715,105,42,31,0,0,NOCROP]
+	}
+	if (climate == CLIMATE_TOYLAND) {
+	replace( 702, "gfx/cursor.png") {
+	[1758,105,19,27,0,0,NOCROP]
+	}
+	}
+	replace( 4950, "gfx/cursor.png") {
+	[1778,105,26,28,0,0,NOCROP]
+	}
+	replace( 4952, "gfx/cursor.png") {
+	[1826,105,29,28,0,0,NOCROP]
+	}
+	replace( 4954, "gfx/cursor.png") {
+	[1856,105,26,28,0,0,NOCROP]
+	}
+	replace( 4956, "gfx/cursor.png") {
+	[1904,105,28,28,0,0,NOCROP]
+	}
+	replace( 4958, "gfx/cursor.png") {
+	[1933,105,32,32,0,0,NOCROP]
+	}
+	replace( 4960, "gfx/cursor.png") {
+	[1966,105,26,28,0,0,NOCROP]
+	}
+	replace( 4962, "gfx/cursor.png") {
+	[2014,105,32,28,0,0,NOCROP]
+	}
+	replace( 4964, "gfx/cursor.png") {
+	[2047,105,32,32,0,0,NOCROP]
+	}
+	replace( 4966, "gfx/cursor.png") {
+	[2080,105,26,28,0,0,NOCROP]
+	}
+	replace( 4968, "gfx/cursor.png") {
+	[2128,105,28,28,0,0,NOCROP]
+	}
+	replace( 4970, "gfx/cursor.png") {
+	[2157,105,32,32,0,0,NOCROP]
+	}
+	replace( 4973, "gfx/cursor.png") {
+	[2190,105,32,32,0,0,NOCROP]
+	}
+	replace( 4979, "gfx/cursor.png") {
+	[2223,105,27,29,0,0,NOCROP]
+	}
+	replace( 4981, "gfx/cursor.png") {
+	[2251,105,27,28,0,0,NOCROP]
+	}
+	replace( 4983, "gfx/cursor.png") {
+	[2279,105,32,32,0,0,NOCROP]
+	}
+	replace( 4985, "gfx/cursor.png") {
+	[2312,105,32,32,0,0,NOCROP]
+	}
+	replace( 4988, "gfx/cursor.png") {
+	[2366,105,29,24,0,0,NOCROP]
+	}
+	replace( 5006, "gfx/cursor.png") {
+	[2396,105,22,29,0,0,NOCROP]
+	[2419,105,23,29,0,0,NOCROP]
+	[2443,105,25,29,0,0,NOCROP]
+	[2469,105,24,29,0,0,NOCROP]
+	}
+	replace( 5033, "gfx/cursor.png") {
+	[2494,105,27,32,0,0,NOCROP]
+	}
+	replace( 5042, "gfx/cursor.png") {
+	[2522,105,27,32,0,0,NOCROP]
+	}
+	replace( 2593, "gfx/cursor.png") {
+	[2550,105,45,32,0,0,NOCROP]
+	}
+}
+
+if (param[0] == 4) { //GREEN Y=140
+	replace( 0, "gfx/cursor.png") {
+	[1,140,13,18,0,0,NOCROP]
+	}
+	replace( 696, "gfx/cursor.png") {
+	//[15,140,20,14,0,0,NOCROP] GUI 694
+	//[36,140,20,14,0,0,NOCROP] 695
+	[57,140,29,24,0,0,NOCROP]
+	[87,140,29,24,0,0,NOCROP]
+	[117,140,29,24,0,0,NOCROP]
+	[147,140,29,24,0,0,NOCROP]
+	[177,140,29,24,0,0,NOCROP]
+	[207,140,29,24,0,0,NOCROP]
+	[237,140,18,27,0,0,NOCROP]
+	}
+	replace( 704, "gfx/cursor.png") {
+	[256,140,27,29,0,0,NOCROP]
+	[284,140,26,29,0,0,NOCROP]
+	[311,140,27,29,0,0,NOCROP]
+	[339,140,28,29,0,0,NOCROP]
+	}
+	replace( 716, "gfx/cursor.png") {
+	//[368,140,14,16,0,0,NOCROP] GUI 715
+	[383,140,24,27,0,0,NOCROP]
+	[408,140,24,27,0,0,NOCROP]
+	[433,140,24,27,0,0,NOCROP]
+	[458,140,26,31,0,0,NOCROP]
+	[485,140,32,32,0,0,NOCROP]
+	[518,140,32,32,0,0,NOCROP]
+	[551,140,26,32,0,0,NOCROP]
+	}
+	replace( 1263, "gfx/cursor.png") {
+	[578,140,20,29,0,0,NOCROP]
+	[599,140,26,28,0,0,NOCROP]
+	[626,140,27,26,0,0,NOCROP]
+	[654,140,26,28,0,0,NOCROP]
+	[681,140,18,29,0,0,NOCROP]
+	[700,140,25,28,0,0,NOCROP]
+	[726,140,30,26,0,0,NOCROP]
+	[757,140,25,28,0,0,NOCROP]
+	[783,140,21,29,0,0,NOCROP]
+	[805,140,25,28,0,0,NOCROP]
+	[831,140,26,26,0,0,NOCROP]
+	[858,140,26,28,0,0,NOCROP]
+	}
+	replace( 1292, "gfx/cursor.png") {
+	[885,140,28,30,0,0,NOCROP]
+	[914,140,28,30,0,0,NOCROP]
+	}
+	replace( 1296, "gfx/cursor.png") {
+	[943,140,32,32,0,0,NOCROP]
+	[976,140,32,32,0,0,NOCROP]
+	}
+	replace( 1300, "gfx/cursor.png") {
+	[1009,140,29,32,0,0,NOCROP]
+	}
+	replace( 1311, "gfx/cursor.png") {
+	[1039,140,27,28,0,0,NOCROP]
+	[1067,140,27,28,0,0,NOCROP]
+	}
+	replace( 2010, "gfx/cursor.png") {
+	[1095,140,23,32,0,0,NOCROP]
+	}
+	replace( 2433, "gfx/cursor.png") {
+	[1119,140,27,30,0,0,NOCROP]
+	[1147,140,27,30,0,0,NOCROP]
+	[1175,140,27,30,0,0,NOCROP]
+	[1203,140,27,30,0,0,NOCROP]
+	}
+	replace( 2724, "gfx/cursor.png") {
+	[1231,140,32,32,0,0,NOCROP]
+	[1264,140,32,32,0,0,NOCROP]
+	[1297,140,32,32,0,0,NOCROP]
+	}
+	replace( 3668, "gfx/cursor.png") {
+	[1330,140,32,32,0,0,NOCROP]
+	}
+	replace( 4080, "gfx/cursor.png") {
+	[1363,140,32,32,0,0,NOCROP]
+	[1396,140,26,31,0,0,NOCROP]
+	}
+	replace( 4087, "gfx/cursor.png") {
+	[1423,140,26,32,0,0,NOCROP]
+	[1450,140,19,32,0,0,NOCROP]
+	[1470,140,28,32,0,0,NOCROP]
+	}
+	replace( 4792, "gfx/cursor.png") {
+	[1499,140,20,28,0,0,NOCROP]
+	}
+	replace( 5655, "gfx/cursor.png") {
+	[1520,140,20,29,0,0,NOCROP]
+	[1541,140,26,28,0,0,NOCROP]
+	[1568,140,27,26,0,0,NOCROP]
+	[1596,140,26,28,0,0,NOCROP]
+	}
+	replace( 5660, "gfx/cursor.png") {
+	[1644,140,27,30,0,0,NOCROP]
+	}
+	replace( 5971, "gfx/cursor.png") {
+	[1672,140,42,32,0,0,NOCROP]
+	[1715,140,42,31,0,0,NOCROP]
+	}
+	if (climate == CLIMATE_TOYLAND) {
+	replace( 702, "gfx/cursor.png") {
+	[1758,140,19,27,0,0,NOCROP]
+	}
+	}
+	replace( 4950, "gfx/cursor.png") {
+	[1778,140,26,28,0,0,NOCROP]
+	}
+	replace( 4952, "gfx/cursor.png") {
+	[1826,140,29,28,0,0,NOCROP]
+	}
+	replace( 4954, "gfx/cursor.png") {
+	[1856,140,26,28,0,0,NOCROP]
+	}
+	replace( 4956, "gfx/cursor.png") {
+	[1904,140,28,28,0,0,NOCROP]
+	}
+	replace( 4958, "gfx/cursor.png") {
+	[1933,140,32,32,0,0,NOCROP]
+	}
+	replace( 4960, "gfx/cursor.png") {
+	[1966,140,26,28,0,0,NOCROP]
+	}
+	replace( 4962, "gfx/cursor.png") {
+	[2014,140,32,28,0,0,NOCROP]
+	}
+	replace( 4964, "gfx/cursor.png") {
+	[2047,140,32,32,0,0,NOCROP]
+	}
+	replace( 4966, "gfx/cursor.png") {
+	[2080,140,26,28,0,0,NOCROP]
+	}
+	replace( 4968, "gfx/cursor.png") {
+	[2128,140,28,28,0,0,NOCROP]
+	}
+	replace( 4970, "gfx/cursor.png") {
+	[2157,140,32,32,0,0,NOCROP]
+	}
+	replace( 4973, "gfx/cursor.png") {
+	[2190,140,32,32,0,0,NOCROP]
+	}
+	replace( 4979, "gfx/cursor.png") {
+	[2223,140,27,29,0,0,NOCROP]
+	}
+	replace( 4981, "gfx/cursor.png") {
+	[2251,140,27,28,0,0,NOCROP]
+	}
+	replace( 4983, "gfx/cursor.png") {
+	[2279,140,32,32,0,0,NOCROP]
+	}
+	replace( 4985, "gfx/cursor.png") {
+	[2312,140,32,32,0,0,NOCROP]
+	}
+	replace( 4988, "gfx/cursor.png") {
+	[2366,140,29,24,0,0,NOCROP]
+	}
+	replace( 5006, "gfx/cursor.png") {
+	[2396,140,22,29,0,0,NOCROP]
+	[2419,140,23,29,0,0,NOCROP]
+	[2443,140,25,29,0,0,NOCROP]
+	[2469,140,24,29,0,0,NOCROP]
+	}
+	replace( 5033, "gfx/cursor.png") {
+	[2494,140,27,32,0,0,NOCROP]
+	}
+	replace( 5042, "gfx/cursor.png") {
+	[2522,140,27,32,0,0,NOCROP]
+	}
+	replace( 2593, "gfx/cursor.png") {
+	[2550,140,45,32,0,0,NOCROP]
+	}
+}
+
+if (param[0] == 5) { //BLUE Y=175
+	replace( 0, "gfx/cursor.png") {
+	[1,175,13,18,0,0,NOCROP]
+	}
+	replace( 696, "gfx/cursor.png") {
+	//[15,175,20,14,0,0,NOCROP] GUI 694
+	//[36,175,20,14,0,0,NOCROP] 695
+	[57,175,29,24,0,0,NOCROP]
+	[87,175,29,24,0,0,NOCROP]
+	[117,175,29,24,0,0,NOCROP]
+	[147,175,29,24,0,0,NOCROP]
+	[177,175,29,24,0,0,NOCROP]
+	[207,175,29,24,0,0,NOCROP]
+	[237,175,18,27,0,0,NOCROP]
+	}
+	replace( 704, "gfx/cursor.png") {
+	[256,175,27,29,0,0,NOCROP]
+	[284,175,26,29,0,0,NOCROP]
+	[311,175,27,29,0,0,NOCROP]
+	[339,175,28,29,0,0,NOCROP]
+	}
+	replace( 716, "gfx/cursor.png") {
+	//[368,175,14,16,0,0,NOCROP] GUI 715
+	[383,175,24,27,0,0,NOCROP]
+	[408,175,24,27,0,0,NOCROP]
+	[433,175,24,27,0,0,NOCROP]
+	[458,175,26,31,0,0,NOCROP]
+	[485,175,32,32,0,0,NOCROP]
+	[518,175,32,32,0,0,NOCROP]
+	[551,175,26,32,0,0,NOCROP]
+	}
+	replace( 1263, "gfx/cursor.png") {
+	[578,175,20,29,0,0,NOCROP]
+	[599,175,26,28,0,0,NOCROP]
+	[626,175,27,26,0,0,NOCROP]
+	[654,175,26,28,0,0,NOCROP]
+	[681,175,18,29,0,0,NOCROP]
+	[700,175,25,28,0,0,NOCROP]
+	[726,175,30,26,0,0,NOCROP]
+	[757,175,25,28,0,0,NOCROP]
+	[783,175,21,29,0,0,NOCROP]
+	[805,175,25,28,0,0,NOCROP]
+	[831,175,26,26,0,0,NOCROP]
+	[858,175,26,28,0,0,NOCROP]
+	}
+	replace( 1292, "gfx/cursor.png") {
+	[885,175,28,30,0,0,NOCROP]
+	[914,175,28,30,0,0,NOCROP]
+	}
+	replace( 1296, "gfx/cursor.png") {
+	[943,175,32,32,0,0,NOCROP]
+	[976,175,32,32,0,0,NOCROP]
+	}
+	replace( 1300, "gfx/cursor.png") {
+	[1009,175,29,32,0,0,NOCROP]
+	}
+	replace( 1311, "gfx/cursor.png") {
+	[1039,175,27,28,0,0,NOCROP]
+	[1067,175,27,28,0,0,NOCROP]
+	}
+	replace( 2010, "gfx/cursor.png") {
+	[1095,175,23,32,0,0,NOCROP]
+	}
+	replace( 2433, "gfx/cursor.png") {
+	[1119,175,27,30,0,0,NOCROP]
+	[1147,175,27,30,0,0,NOCROP]
+	[1175,175,27,30,0,0,NOCROP]
+	[1203,175,27,30,0,0,NOCROP]
+	}
+	replace( 2724, "gfx/cursor.png") {
+	[1231,175,32,32,0,0,NOCROP]
+	[1264,175,32,32,0,0,NOCROP]
+	[1297,175,32,32,0,0,NOCROP]
+	}
+	replace( 3668, "gfx/cursor.png") {
+	[1330,175,32,32,0,0,NOCROP]
+	}
+	replace( 4080, "gfx/cursor.png") {
+	[1363,175,32,32,0,0,NOCROP]
+	[1396,175,26,31,0,0,NOCROP]
+	}
+	replace( 4087, "gfx/cursor.png") {
+	[1423,175,26,32,0,0,NOCROP]
+	[1450,175,19,32,0,0,NOCROP]
+	[1470,175,28,32,0,0,NOCROP]
+	}
+	replace( 4792, "gfx/cursor.png") {
+	[1499,175,20,28,0,0,NOCROP]
+	}
+	replace( 5655, "gfx/cursor.png") {
+	[1520,175,20,29,0,0,NOCROP]
+	[1541,175,26,28,0,0,NOCROP]
+	[1568,175,27,26,0,0,NOCROP]
+	[1596,175,26,28,0,0,NOCROP]
+	}
+	replace( 5660, "gfx/cursor.png") {
+	[1644,175,27,30,0,0,NOCROP]
+	}
+	replace( 5971, "gfx/cursor.png") {
+	[1672,175,42,32,0,0,NOCROP]
+	[1715,175,42,31,0,0,NOCROP]
+	}
+	if (climate == CLIMATE_TOYLAND) {
+	replace( 702, "gfx/cursor.png") {
+	[1758,175,19,27,0,0,NOCROP]
+	}
+	}
+	replace( 4950, "gfx/cursor.png") {
+	[1778,175,26,28,0,0,NOCROP]
+	}
+	replace( 4952, "gfx/cursor.png") {
+	[1826,175,29,28,0,0,NOCROP]
+	}
+	replace( 4954, "gfx/cursor.png") {
+	[1856,175,26,28,0,0,NOCROP]
+	}
+	replace( 4956, "gfx/cursor.png") {
+	[1904,175,28,28,0,0,NOCROP]
+	}
+	replace( 4958, "gfx/cursor.png") {
+	[1933,175,32,32,0,0,NOCROP]
+	}
+	replace( 4960, "gfx/cursor.png") {
+	[1966,175,26,28,0,0,NOCROP]
+	}
+	replace( 4962, "gfx/cursor.png") {
+	[2014,175,32,28,0,0,NOCROP]
+	}
+	replace( 4964, "gfx/cursor.png") {
+	[2047,175,32,32,0,0,NOCROP]
+	}
+	replace( 4966, "gfx/cursor.png") {
+	[2080,175,26,28,0,0,NOCROP]
+	}
+	replace( 4968, "gfx/cursor.png") {
+	[2128,175,28,28,0,0,NOCROP]
+	}
+	replace( 4970, "gfx/cursor.png") {
+	[2157,175,32,32,0,0,NOCROP]
+	}
+	replace( 4973, "gfx/cursor.png") {
+	[2190,175,32,32,0,0,NOCROP]
+	}
+	replace( 4979, "gfx/cursor.png") {
+	[2223,175,27,29,0,0,NOCROP]
+	}
+	replace( 4981, "gfx/cursor.png") {
+	[2251,175,27,28,0,0,NOCROP]
+	}
+	replace( 4983, "gfx/cursor.png") {
+	[2279,175,32,32,0,0,NOCROP]
+	}
+	replace( 4985, "gfx/cursor.png") {
+	[2312,175,32,32,0,0,NOCROP]
+	}
+	replace( 4988, "gfx/cursor.png") {
+	[2366,175,29,24,0,0,NOCROP]
+	}
+	replace( 5006, "gfx/cursor.png") {
+	[2396,175,22,29,0,0,NOCROP]
+	[2419,175,23,29,0,0,NOCROP]
+	[2443,175,25,29,0,0,NOCROP]
+	[2469,175,24,29,0,0,NOCROP]
+	}
+	replace( 5033, "gfx/cursor.png") {
+	[2494,175,27,32,0,0,NOCROP]
+	}
+	replace( 5042, "gfx/cursor.png") {
+	[2522,175,27,32,0,0,NOCROP]
+	}
+	replace( 2593, "gfx/cursor.png") {
+	[2550,175,45,32,0,0,NOCROP]
+	}
+}
+
+//EOF
+
+
+
+
+
+
+
+
+
+
+
