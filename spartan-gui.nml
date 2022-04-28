@@ -8,10 +8,184 @@ grf {
 
 
 // Cursor
-replace(0, "gfx/cursor.png") {
-      [0, 0, 20, 20, 0, 0, NOCROP]
+replace(0, "gfx/s-gui-cursors.png") {
+      [0, 0, 13, 18, 0, 0, NOCROP]
 }
 
+replace(696, "gfx/s-gui-cursors.png") {
+      [60, 0, 29, 24, 0, 0, NOCROP]
+      [90, 0, 29, 24, 0, 0, NOCROP]
+      [120, 0, 29, 24, 0, 0, NOCROP]
+      [150, 0, 29, 24, 0, 0, NOCROP]
+      [180, 0, 29, 24, 0, 0, NOCROP]
+      [210, 0, 29, 24, 0, 0, NOCROP]
+      [0, 30, 18, 27, 0, 0, NOCROP]
+}
+
+replace(704, "gfx/s-gui-cursors.png") {
+      [30, 30, 29, 27, 0, 0, NOCROP]
+      [60, 30, 29, 27, 0, 0, NOCROP]
+      [90, 30, 29, 27, 0, 0, NOCROP]
+      [120, 30, 29, 27, 0, 0, NOCROP]
+}
+
+replace(716, "gfx/s-gui-cursors.png") {
+      [150, 30, 24, 27, 0, 0, NOCROP]
+      [180, 30, 24, 27, 0, 0, NOCROP]
+      [210, 30, 24, 27, 0, 0, NOCROP]
+      [0, 60, 24, 28, 0, 0, NOCROP]
+      [30, 60, 29, 28, 0, 0, NOCROP]
+      [60, 60, 29, 28, 0, 0, NOCROP]
+      [90, 60, 29, 28, 0, 0, NOCROP]
+}
+
+replace(1263, "gfx/s-gui-cursors.png") {
+      [120, 60, 29, 29, 0, 0, NOCROP]
+      [150, 60, 29, 29, 0, 0, NOCROP]
+      [180, 60, 29, 29, 0, 0, NOCROP]
+      [210, 60, 29, 29, 0, 0, NOCROP]
+      [0, 90, 29, 29, 0, 0, NOCROP]
+      [30, 90, 29, 29, 0, 0, NOCROP]
+      [60, 90, 29, 29, 0, 0, NOCROP]
+      [90, 90, 29, 29, 0, 0, NOCROP]
+      [120, 90, 29, 29, 0, 0, NOCROP]
+      [150, 90, 29, 29, 0, 0, NOCROP]
+      [180, 90, 29, 29, 0, 0, NOCROP]
+      [210, 90, 29, 29, 0, 0, NOCROP]
+}
+
+replace(1292, "gfx/s-gui-cursors.png") {
+      [240, 0, 29, 29, 0, 0, NOCROP]
+      [270, 0, 29, 29, 0, 0, NOCROP]
+}
+
+replace(1296, "gfx/s-gui-cursors.png") {
+      [0, 120, 29, 29, 0, 0, NOCROP]
+      [30, 120, 29, 29, 0, 0, NOCROP]
+}
+
+replace(1300, "gfx/s-gui-cursors.png") {
+      [60, 120, 29, 29, 0, 0, NOCROP]
+}
+
+replace(1311, "gfx/s-gui-cursors.png") {
+      [270, 90, 29, 29, 0, 0, NOCROP]
+      [240, 90, 29, 29, 0, 0, NOCROP]
+}
+
+replace(2010, "gfx/s-gui-cursors.png") {
+      [90, 120, 29, 29, 0, 0, NOCROP]
+}
+
+replace(2433, "gfx/s-gui-cursors.png") {
+      [240, 30, 29, 29, 0, 0, NOCROP]
+      [270, 30, 29, 29, 0, 0, NOCROP]
+      [240, 60, 29, 29, 0, 0, NOCROP]
+      [270, 60, 29, 29, 0, 0, NOCROP]
+}
+
+replace(2724, "gfx/s-gui-cursors.png") {
+      [0, 150, 29, 29, 0, 0, NOCROP]
+      [240, 120, 29, 29, 0, 0, NOCROP]
+      [270, 120, 29, 29, 0, 0, NOCROP]
+}
+
+replace(3668, "gfx/s-gui-cursors.png") {
+      [30, 150, 29, 29, 0, 0, NOCROP]
+}
+
+replace(4080, "gfx/s-gui-cursors.png") {
+      [60, 150, 29, 29, 0, 0, NOCROP]
+      [90, 150, 29, 29, 0, 0, NOCROP]
+}
+
+// replace(4087, "gfx/s-gui-cursors.png") {
+//       [0, 0, 29, 29, 0, 0, NOCROP]
+//       [0, 0, 29, 29, 0, 0, NOCROP]
+//       [0, 0, 29, 29, 0, 0, NOCROP]
+// }
+
+// replace(4792, "gfx/s-gui-cursors.png") {
+      // [0, 0, 29, 29, 0, 0, NOCROP]
+// }
+
+replace(5671, "gfx/s-gui-cursors.png") {
+      [120, 120, 29, 29, 0, 0, NOCROP]
+      [150, 120, 29, 29, 0, 0, NOCROP]
+      [180, 120, 29, 29, 0, 0, NOCROP]
+      [210, 120, 29, 29, 0, 0, NOCROP]
+}
+
+replace(5676, "gfx/s-gui-cursors.png") {
+      [210, 150, 29, 29, 0, 0, NOCROP]
+}
+
+replace(4950, "gfx/s-gui-cursors.png") {
+      [270, 150, 29, 29, 0, 0, NOCROP]
+}
+
+replace(4954, "gfx/s-gui-cursors.png") {
+      [270, 180, 29, 29, 0, 0, NOCROP]
+}
+
+replace(4960, "gfx/s-gui-cursors.png") {
+      [270, 210, 29, 29, 0, 0, NOCROP]
+}
+
+replace(4966, "gfx/s-gui-cursors.png") {
+      [270, 240, 29, 29, 0, 0, NOCROP]
+}
+
+replace(4952, "gfx/s-gui-cursors.png") {
+      [240, 150, 29, 29, 0, 0, NOCROP]
+}
+
+replace(4956, "gfx/s-gui-cursors.png") {
+      [240, 180, 29, 29, 0, 0, NOCROP]
+}
+
+replace(4962, "gfx/s-gui-cursors.png") {
+      [240, 210, 29, 29, 0, 0, NOCROP]
+}
+
+replace(4968, "gfx/s-gui-cursors.png") {
+      [240, 240, 29, 29, 0, 0, NOCROP]
+}
+
+replace(4958, "gfx/s-gui-cursors.png") {
+      [210, 180, 29, 29, 0, 0, NOCROP]
+}
+
+replace(4964, "gfx/s-gui-cursors.png") {
+      [210, 210, 29, 29, 0, 0, NOCROP]
+}
+
+replace(4970, "gfx/s-gui-cursors.png") {
+      [210, 240, 29, 29, 0, 0, NOCROP]
+}
+
+replace(4979, "gfx/s-gui-cursors.png") {
+      [120, 180, 29, 29, 0, 0, NOCROP]
+}
+
+replace(4981, "gfx/s-gui-cursors.png") {
+      [120, 210, 29, 29, 0, 0, NOCROP]
+}
+
+replace(4988, "gfx/s-gui-cursors.png") {
+      [90, 240, 29, 29, 0, 0, NOCROP]
+}
+
+replace(5006, "gfx/s-gui-cursors.png") {
+      [0, 180, 29, 29, 0, 0, NOCROP]
+      [30, 180, 29, 29, 0, 0, NOCROP]
+      [60, 180, 29, 29, 0, 0, NOCROP]
+      [90, 180, 29, 29, 0, 0, NOCROP]
+}
+
+replace(2593, "gfx/s-gui-cursors.png") {
+      [120, 271, 49, 29, 0, 0, NOCROP]
+}
 
 /*Pause button */
 replace(726, "gfx/s-gui-main_toolbar.png") {
@@ -245,19 +419,19 @@ replace(5670, "gfx/s-gui-rail_toolbar.png") {
 
 // rail-5
 replace(4949, "gfx/s-gui-rail_toolbar.png") {
-      [87, 1, 22, 22, 0, 0, NOCROP]
+      [89, 1, 22, 22, 0, 0, NOCROP]
 }
 
 replace(4953, "gfx/s-gui-rail_toolbar.png") {
-      [87, 1, 22, 22, 0, 0, NOCROP]
+      [89, 1, 22, 22, 0, 0, NOCROP]
 }
 
 replace(4959, "gfx/s-gui-rail_toolbar.png") {
-      [87, 1, 22, 22, 0, 0, NOCROP]
+      [89, 1, 22, 22, 0, 0, NOCROP]
 }
 
 replace(4965, "gfx/s-gui-rail_toolbar.png") {
-      [87, 1, 22, 22, 0, 0, NOCROP]
+      [89, 1, 22, 22, 0, 0, NOCROP]
 }
 
 // rail-4
@@ -443,4 +617,28 @@ replace(2429, "gfx/s-gui-road_toolbar.png") {
 // Road-update
 replace(5076, "gfx/s-gui-road_toolbar.png") {
       [67, 23, 22, 22, 0, 0, NOCROP]
+}
+
+// ***EXTRAS***
+
+replace(685, "gfx/s-gui-extras.png") {
+      [0, 0, 15, 15, 0, 0, NOCROP]
+      [0, 0, 15, 15, 0, 0, NOCROP]
+      [0, 0, 15, 15, 0, 0, NOCROP]
+      [0, 0, 15, 15, 0, 0, NOCROP]
+      [15, 0, 15, 15, 0, 0, NOCROP]
+      [30, 0, 15, 15, 0, 0, NOCROP]
+      [45, 0, 15, 15, 0, 0, NOCROP]
+      [60, 0, 15, 15, 0, 0, NOCROP]
+}
+
+replace(715, "gfx/s-gui-extras.png") {
+      [75, 0, 15, 15, 0, 0, NOCROP]
+}
+
+replace(5002, "gfx/s-gui-extras.png") {
+      [0, 15, 15, 15, 0, 0, NOCROP]
+      [15, 15, 15, 15, 0, 0, NOCROP]
+      [30, 15, 15, 15, 0, 0, NOCROP]
+      [45, 15, 15, 15, 0, 0, NOCROP]
 }
